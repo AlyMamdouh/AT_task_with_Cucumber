@@ -1,3 +1,5 @@
+@Searching
+
 Feature: Search for a Customer
 
   Scenario: Successfully search for an existing customer

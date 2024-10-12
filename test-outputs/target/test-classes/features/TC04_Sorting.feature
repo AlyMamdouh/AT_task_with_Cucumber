@@ -1,3 +1,5 @@
+@Sorting
+
 Feature: Sorting Customers by Postcode
 
   Scenario: Successfully Sort Customers by Postcode

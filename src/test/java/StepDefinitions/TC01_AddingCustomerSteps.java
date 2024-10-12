@@ -18,7 +18,7 @@ public class TC01_AddingCustomerSteps
     private final String LASTNAME = DataUtils.getJsonData("addingCustomer", "lastname");
     private final String POSTCODE = DataUtils.getJsonData("addingCustomer", "postcode");
 
-    @Before
+    @Before("@AddingCust")
     public void setupTC01() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
@@ -61,7 +61,7 @@ public class TC01_AddingCustomerSteps
                 .checkCustAdding();
     }
 
-    @After
+    @After("@AddingCust")
     public void quitTC01() {
         quitDriver();
         LogsUtils.info("Driver is closed");

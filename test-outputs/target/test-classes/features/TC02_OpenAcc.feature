@@ -1,3 +1,5 @@
+@OpeningAcc
+
 Feature: Open an Account
 
   Scenario: Successfully open an account for a created customer

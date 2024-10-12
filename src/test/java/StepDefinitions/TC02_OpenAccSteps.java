@@ -24,7 +24,7 @@ public class TC02_OpenAccSteps
     private final String LASTNAME = DataUtils.getJsonData("addingCustomer", "lastname");
     private final String POSTCODE = DataUtils.getJsonData("addingCustomer", "postcode");
 
-    @Before
+    @Before("@OpeningAcc")
     public void setupTC02() throws Exception
     {
             String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
@@ -81,7 +81,7 @@ public class TC02_OpenAccSteps
 
     }
 
-    @After
+    @After("@OpeningAcc")
     public void quitTC02() {
         quitDriver();
     }

@@ -23,7 +23,7 @@ public class TC03_SearchingSteps
 
 
 
-    @Before
+    @Before("@Searching")
     public void setup() throws Exception
     {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
@@ -79,7 +79,7 @@ public class TC03_SearchingSteps
                 .CheckSearching(FIRSTNAME);
     }
 
-    @After
+    @After("@Searching")
     public void quitTC03()
     {
         quitDriver();

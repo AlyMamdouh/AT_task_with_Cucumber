@@ -1,3 +1,5 @@
+@AddingCust
+
 Feature: Add a new customer
 
   Scenario: Successfully add a new customer

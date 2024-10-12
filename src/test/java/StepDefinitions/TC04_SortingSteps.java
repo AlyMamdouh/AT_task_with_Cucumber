@@ -16,7 +16,7 @@ import static Utilities.DataUtils.getPropertyValue;
 
 public class TC04_SortingSteps
 {
-    @Before
+    @Before("@Sorting")
     public void setup() throws Exception
     {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
@@ -75,7 +75,7 @@ public class TC04_SortingSteps
                 .checkSortingOrder();
     }
 
-    @After
+    @After("@Sorting")
     public void quitTC04() {
         quitDriver();
     }
