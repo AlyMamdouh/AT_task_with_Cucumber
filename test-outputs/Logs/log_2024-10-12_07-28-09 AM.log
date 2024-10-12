@@ -1,0 +1,3 @@
+[INFO] 12-10-2024 07:28:09 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:23)] - null
+[INFO] 12-10-2024 07:28:14 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:25)] - chrome driver is opened
+[INFO] 12-10-2024 07:28:16 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:27)] - Page is redirected to the URL

@@ -1,0 +1,48 @@
+[INFO] 12-10-2024 08:14:34 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:24)] - null
+[INFO] 12-10-2024 08:14:38 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:26)] - chrome driver is opened
+[INFO] 12-10-2024 08:14:40 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:28)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:14:40 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:31)] - null
+[INFO] 12-10-2024 08:14:42 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:33)] - chrome driver is opened
+[INFO] 12-10-2024 08:14:44 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:35)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:14:44 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:30)] - null
+[INFO] 12-10-2024 08:14:46 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:32)] - chrome driver is opened
+[INFO] 12-10-2024 08:14:48 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:34)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:14:48 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:23)] - null
+[INFO] 12-10-2024 08:14:50 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:25)] - chrome driver is opened
+[INFO] 12-10-2024 08:14:52 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:27)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:14:59 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:24)] - null
+[INFO] 12-10-2024 08:15:01 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:26)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:04 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:28)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:04 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:31)] - null
+[INFO] 12-10-2024 08:15:06 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:33)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:11 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:35)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:11 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:30)] - null
+[INFO] 12-10-2024 08:15:15 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:32)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:22 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:34)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:22 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:23)] - null
+[INFO] 12-10-2024 08:15:26 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:25)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:30 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:27)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:42 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:24)] - null
+[INFO] 12-10-2024 08:15:44 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:26)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:46 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:28)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:46 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:31)] - null
+[INFO] 12-10-2024 08:15:48 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:33)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:55 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:35)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:55 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:30)] - null
+[INFO] 12-10-2024 08:15:57 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:32)] - chrome driver is opened
+[INFO] 12-10-2024 08:15:58 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:34)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:15:58 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:23)] - null
+[INFO] 12-10-2024 08:16:04 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:25)] - chrome driver is opened
+[INFO] 12-10-2024 08:16:08 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:27)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:16:15 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:24)] - null
+[INFO] 12-10-2024 08:16:17 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:26)] - chrome driver is opened
+[INFO] 12-10-2024 08:16:33 [main] [StepDefinitions.TC01_AddingCustomerSteps.setupTC01(TC01_AddingCustomerSteps.java:28)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:16:33 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:31)] - null
+[INFO] 12-10-2024 08:16:35 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:33)] - chrome driver is opened
+[INFO] 12-10-2024 08:16:38 [main] [StepDefinitions.TC02_OpenAccSteps.setupTC02(TC02_OpenAccSteps.java:35)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:16:38 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:30)] - null
+[INFO] 12-10-2024 08:16:40 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:32)] - chrome driver is opened
+[INFO] 12-10-2024 08:16:44 [main] [StepDefinitions.TC03_SearchingSteps.setup(TC03_SearchingSteps.java:34)] - Page is redirected to the URL
+[INFO] 12-10-2024 08:16:44 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:23)] - null
+[INFO] 12-10-2024 08:16:46 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:25)] - chrome driver is opened
+[INFO] 12-10-2024 08:17:20 [main] [StepDefinitions.TC04_SortingSteps.setup(TC04_SortingSteps.java:27)] - Page is redirected to the URL
