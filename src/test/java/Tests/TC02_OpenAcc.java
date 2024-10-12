@@ -45,7 +45,7 @@ public class TC02_OpenAcc
     }
 
     @Test (priority = 1)
-    public void AddingCus()
+    public void OpeningAccount()
     {
         new BankXYZ_Pages(getDriver())
                 .clickBankManagerLoginBtn()
@@ -56,14 +56,7 @@ public class TC02_OpenAcc
                 .clickAddCustBtn()
                 .checkCustAdding()
                 .clickHomeBtn()
-                .clickBankManagerLoginBtn();
-
-    }
-
-    @Test (priority = 2)
-    public void OpeningAccount()
-    {
-        new BankXYZ_Pages(getDriver())
+                .clickBankManagerLoginBtn()
                 .clickOpenAccBtn()
                 .ChooseCustomer()
                 .ChooseCurrency()
