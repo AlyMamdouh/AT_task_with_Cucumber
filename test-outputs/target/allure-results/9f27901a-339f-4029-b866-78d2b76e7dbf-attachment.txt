@@ -1,0 +1,7 @@
+[INFO] 12-10-2024 08:47:50 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case testCreateNewPet started
+[INFO] 12-10-2024 08:47:50 [main] [Tests.PetStoreApiTest] - Creating new pet with payload: { "id": 10, "name": "Buddy", "status": "available" }
+[INFO] 12-10-2024 08:48:00 [main] [Tests.PetStoreApiTest] - Request method: HTTP/1.1 200 OK
+[INFO] 12-10-2024 08:48:00 [main] [Tests.PetStoreApiTest] - Response code: 200
+[INFO] 12-10-2024 08:48:00 [main] [Tests.PetStoreApiTest] - Response body: {"id":10,"name":"Buddy","photoUrls":[],"tags":[],"status":"available"}
+[INFO] 12-10-2024 08:48:03 [main] [Tests.PetStoreApiTest] - Created Pet Name: Buddy
+[INFO] 12-10-2024 08:48:03 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:32)] - Test Case testCreateNewPet passed
