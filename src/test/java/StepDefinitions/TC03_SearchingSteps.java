@@ -1,29 +1,21 @@
-package Tests;
+package StepDefinitions;
 
-import Listeners.IInvokedMethodListenerClass;
-import Listeners.ITestResultListenerClass;
 import Pages.BankXYZ_Pages;
 import Utilities.DataUtils;
 import Utilities.LogsUtils;
-import org.testng.annotations.*;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 
-import java.io.IOException;
 import java.time.Duration;
-
 import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtils.getPropertyValue;
 
 
-
-
-import org.testng.annotations.Listeners;
-
-@Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-
-
-public class TC02_OpenAcc
+public class TC03_SearchingSteps
 {
-
 
     private final String FIRSTNAME = DataUtils.getJsonData("addingCustomer", "firstname");
     private final String LASTNAME = DataUtils.getJsonData("addingCustomer", "lastname");
@@ -31,8 +23,8 @@ public class TC02_OpenAcc
 
 
 
-    @BeforeClass
-    public void setup() throws IOException
+    @Before
+    public void setup() throws Exception
     {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : getPropertyValue("environment", "Browser");
         LogsUtils.info(System.getProperty("browser"));
@@ -40,38 +32,55 @@ public class TC02_OpenAcc
         LogsUtils.info(browser + " driver is opened");
         getDriver().get(getPropertyValue("environment", "BASE_URL"));
         LogsUtils.info("Page is redirected to the URL");
-
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @Test
-    public void OpeningAccount()
+    @Given("the user is navigated to XYZ Bank Page and logged in as bank manager ForTC03")
+    public void LoginBankMgrTC03()
     {
         new BankXYZ_Pages(getDriver())
-                .clickBankManagerLoginBtn()
+                .clickBankManagerLoginBtn();
+    }
+
+    @And("the user creates a new customer ForTC03")
+    public void CreatingNewCustTC03()
+    {
+        new BankXYZ_Pages(getDriver())
                 .clickAddingCustBtn()
                 .EnterFirstN(FIRSTNAME)
                 .EnterLastN(LASTNAME)
                 .EnterPostcode(POSTCODE)
                 .clickAddCustBtn()
-                .checkCustAdding()
+                .checkCustAdding();
+    }
+
+    @Then("the user go to home and clicks the Customers button ForTC03")
+    public void clickOnCustButtonTC03()
+    {
+        new BankXYZ_Pages(getDriver())
                 .clickHomeBtn()
                 .clickBankManagerLoginBtn()
-                .clickOpenAccBtn()
-                .ChooseCustomer()
-                .ChooseCurrency()
-                .clickProceedBtn()
-                .checkproceeding()
-                .clickHomeBtn()
-                .clickonCustomLogin()
-                .ChooseName()
-                .clickProceedBtn();
+                .clickonCustomers();
 
     }
 
+    @Then("the user searches for the customer by name")
+    public void SearchingCustTC03()
+    {
+        new BankXYZ_Pages(getDriver())
+                .SearchByName(FIRSTNAME);
 
-    @AfterClass
-    public void quit()
+    }
+
+    @Then("the customer should be found in the search results")
+    public void CheckingSearchingTC03()
+    {
+        new BankXYZ_Pages(getDriver())
+                .CheckSearching(FIRSTNAME);
+    }
+
+    @After
+    public void quitTC03()
     {
         quitDriver();
     }

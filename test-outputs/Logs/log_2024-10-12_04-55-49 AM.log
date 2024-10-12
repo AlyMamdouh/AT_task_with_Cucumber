@@ -1,4 +1,4 @@
-[INFO] 12-10-2024 04:55:49 [main] [steps.TC01_AddingCustomerSteps.setup(TC01_AddingCustomerSteps.java:22)] - null
-[INFO] 12-10-2024 04:55:55 [main] [steps.TC01_AddingCustomerSteps.setup(TC01_AddingCustomerSteps.java:24)] - chrome driver is opened
-[INFO] 12-10-2024 04:55:57 [main] [steps.TC01_AddingCustomerSteps.navigateToHomepage(TC01_AddingCustomerSteps.java:37)] - Page is redirected to the URL
-[INFO] 12-10-2024 04:56:00 [main] [steps.TC01_AddingCustomerSteps.teardown(TC01_AddingCustomerSteps.java:70)] - Driver is closed
+[INFO] 12-10-2024 04:55:49 [main] [StepDefinitions.TC01_AddingCustomerSteps.setup(TC01_AddingCustomerSteps.java:22)] - null
+[INFO] 12-10-2024 04:55:55 [main] [StepDefinitions.TC01_AddingCustomerSteps.setup(TC01_AddingCustomerSteps.java:24)] - chrome driver is opened
+[INFO] 12-10-2024 04:55:57 [main] [StepDefinitions.TC01_AddingCustomerSteps.navigateToHomepage(TC01_AddingCustomerSteps.java:37)] - Page is redirected to the URL
+[INFO] 12-10-2024 04:56:00 [main] [teardownTC01(TC01_AddingCustomerSteps.java:70)] - Driver is closed

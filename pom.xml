@@ -26,13 +26,13 @@
         <shutterBugVersion>1.6</shutterBugVersion>
         <allureMaven>2.12.0</allureMaven>
         <allureApi.version>2.27.0</allureApi.version>
-        <suite.login>Test runner/LoginSuite.xml</suite.login>
-        <suite.landing>Test runner/LandingSuite.xml</suite.landing>
-        <suite.cart>Test runner/CartSuite.xml</suite.cart>
-        <suite.checkout>Test runner/CheckoutSuite.xml</suite.checkout>
-        <suite.overview>Test runner/OverviewSuite.xml</suite.overview>
-        <suite.finishOrder>Test runner/FinishingSuite.xml</suite.finishOrder>
-        <suite.regression>Test runner/RegressionSuite.xml</suite.regression>
+        <suite.login>Test CucumberRunner/LoginSuite.xml</suite.login>
+        <suite.landing>Test CucumberRunner/LandingSuite.xml</suite.landing>
+        <suite.cart>Test CucumberRunner/CartSuite.xml</suite.cart>
+        <suite.checkout>Test CucumberRunner/CheckoutSuite.xml</suite.checkout>
+        <suite.overview>Test CucumberRunner/OverviewSuite.xml</suite.overview>
+        <suite.finishOrder>Test CucumberRunner/FinishingSuite.xml</suite.finishOrder>
+        <suite.regression>Test CucumberRunner/RegressionSuite.xml</suite.regression>
         <restAssuredVersion>5.3.0</restAssuredVersion>
 
     </properties>

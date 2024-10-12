@@ -1,9 +1,7 @@
 Feature: Add a new customer
 
-  Scenario: Successfully add a customer
-    Given the browser is opened
-    And the user navigates to the bank's homepage
-    When the user logs in as bank manager
-    And clicks the "Add Customer" button
-    And enters the first name, last name, and postcode
-    Then the customer should be added successfully
+  Scenario: Successfully add a new customer
+    Given the user is navigated to XYZ Bank Page and logged in as bank manager ForTC01
+    When the user clicks on the Add Customer button
+    And fills in the customer details and clicks on the Add Customer button
+    Then a success message should be displayed
