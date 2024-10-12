@@ -1,0 +1,7 @@
+[INFO] 12-10-2024 05:00:31 [main] [Tests.TC02_OpenAcc.setup(TC02_OpenAcc.java:38)] - null
+[INFO] 12-10-2024 05:00:35 [main] [Tests.TC02_OpenAcc.setup(TC02_OpenAcc.java:40)] - chrome driver is opened
+[INFO] 12-10-2024 05:00:39 [main] [Tests.TC02_OpenAcc.setup(TC02_OpenAcc.java:42)] - Page is redirected to the URL
+[INFO] 12-10-2024 05:00:39 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:32)] - Test Case setup passed
+[INFO] 12-10-2024 05:00:39 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case AddingCus started
+[INFO] 12-10-2024 05:00:45 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:32)] - Test Case AddingCus passed
+[INFO] 12-10-2024 05:00:46 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:32)] - Test Case quit passed
